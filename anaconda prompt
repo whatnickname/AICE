@@ -1,12 +1,12 @@
 anaconda prompt에 접속
-1. conda create -n virtual python=3.10
-   기다리다가 proceed ([y]/n)? 에서  y치고 엔터
-2. conda activate virtual 
-3. pip install ipykernel  
-4. pip install scikit-learn
-5. pip install pandas
-6. pip install seaborn
-7. pip install tensorflow
-8. pip install openpyxl
-9. pip install xgboost 
-10. python -m ipykernel install --user --name virtual --display-name virtual
+conda create -n virtual python=3.10
+y
+conda activate virtual 
+pip install ipykernel  
+pip install scikit-learn
+pip install pandas
+pip install seaborn
+pip install tensorflow
+pip install openpyxl
+pip install xgboost 
+python -m ipykernel install --user --name virtual --display-name virtual
